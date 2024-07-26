@@ -1,0 +1,74 @@
+<!DOCTYPE
+  rkpluginmap
+>
+<document
+  base_prefix=""
+  namespace="DownloadAppImage"
+  id="DownloadAppImage_rkward"
+  po_id="DownloadAppImage_rkward"
+  priority="medium"
+>
+  <!--
+    this code was generated using the rkwarddev package.
+  perhaps don't make changes here, but in the rkwarddev script instead!
+  
+  look for a file called: $SRC/inst/rkward/rkwarddev_rk.download_appimage_plugin_script.R
+  -->
+  <!--
+    <dependencies>
+    </dependencies>
+  -->
+  <about
+    name="rk.downloadAppImage"
+    shortinfo="Adds a dialog to install or update an AppImage of RKWard"
+    longinfo="Adds a dialog to install or update an AppImage of RKWard"
+    version="0.01-0"
+    releasedate="2024-07-26"
+    url="https://rkward.kde.org"
+    license="GPL (&gt;= 3)"
+  >
+    <author
+      given="Meik"
+      family="Michalke"
+      email="meik.michalke@hhu.de"
+      role="aut, cre"
+    />
+  </about>
+  <require
+    map="rkward::menu"
+  />
+  <require
+    map="rkward::embedded"
+  />
+  <components>
+    <component
+      id="cmp_DownloadAppImgDwnldAppImg"
+      label="Download AppImage"
+      type="standard"
+      file="plugins/DownloadAppImage.xml"
+    >
+    </component>
+  </components>
+  <hierarchy>
+    <menu
+      id="file"
+      label="File"
+    >
+      <entry
+        component="cmp_DownloadAppImgDwnldAppImg"
+      />
+    </menu>
+  </hierarchy>
+  <!--
+    <context
+      id="x11"
+    >
+    </context>
+  -->
+  <!--
+    <context
+      id="import"
+    >
+    </context>
+  -->
+</document>
