@@ -2,6 +2,8 @@
 
 This R package provides a GUI to install or update an AppImage of RKWard.
 
+![rk.downloadAppImage main tab](./inst/screenshots/main_tab.png?raw=true "rk.downloadAppImage main tab")
+
 It is a plugin package for [RKWard](https://rkward.kde.org), a powerful GUI and IDE for [R](https://r-project.org),
 and will **only work in conjunction with RKWard**. However, RKWard is free software, please
 [check it out](https://rkward.kde.org).
